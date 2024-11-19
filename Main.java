@@ -157,36 +157,5 @@ public class Main {
         System.out.println("O maior número informado é o" + maiorValor);
 
 
-        //7 e 7.1 - Qual o quê?
-        System.out.println("Digite o primeiro valor:");
-        double primeiroValor = entradaDeDados.nextDouble();
-
-        System.out.println("Digite o segundo valor:");
-        double segundoValor = entradaDeDados.nextDouble();
-
-        System.out.println("Digite o terceiro valor:");
-        double terceiroValor = entradaDeDados.nextDouble();
-
-        System.out.println("Digite o quarto valor:");
-        double quartoValor = entradaDeDados.nextDouble();
-
-        System.out.println("Digite o quinto valor:");
-        double quintoValor = entradaDeDados.nextDouble();
-
-        double maiorInformado1 = primeiroValor;
-
-        if (segundoValor > maiorInformado1){
-            maiorInformado1 = segundoValor;
-        }if (terceiroValor > maiorInformado1){
-            maiorInformado1 = terceiroValor;
-        }if (quartoValor > maiorInformado1){
-            maiorInformado1 = quartoValor;
-        }if (quintoValor > maiorInformado1){
-            maiorInformado1 = quintoValor;
-        }
-
-        double maiorInformado2 = maiorInformado1 - 1;
-
-        System.out.println("A soma dos dois maiores números são:" + (maiorInformado1 + maiorInformado2));
     }
 }
